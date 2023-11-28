@@ -1,4 +1,4 @@
-﻿namespace contract.ok.helpers;
+﻿namespace contract.ok.helpers.ManualGenerator.Interfaces;
 
 public interface IContractGenerator
 {

@@ -1,4 +1,6 @@
-﻿namespace contract.ok.helpers;
+﻿using contract.ok.helpers.ManualGenerator.Interfaces;
+
+namespace contract.ok.helpers.ManualGenerator;
 
 public class ComplexContract : Contract, IContractGenerator
 {
