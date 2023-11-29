@@ -16,8 +16,7 @@ QuestPDF.Settings.License = LicenseType.Community;
 var fields = new List<CustomizableContractField>()
 {
     new CustomizableContractField("name", "Santiago"),
-    new CustomizableContractField("society", "BONITOS S.A.C."),
-    new CustomizableContractField("default_message", "Este es un mensaje customizado, no leerlo por favor!!!!!")
+    new CustomizableContractField("sample_text", "BONITOS S.A.C."),
 };
 var contract = new Contract(fields, "../contract.ok.helpers/Pdf/Templates/contractType1.json");
 var doc = new ContractDocument(contract.contractModel);
